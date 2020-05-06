@@ -1,0 +1,46 @@
+Codebook for Football Data
+Created by Nathan Sanford
+5/6/2020
+
+This codebook was sourced from https://www.football-data.co.uk/notes.txt. Everything added by me to these data is found 
+below the horizontal line after the AR field.
+
+Key to results data:
+
+Date = Match Date (mm/dd/yy) 
+Time = Time of match kick off
+HomeTeam = Home Team
+AwayTeam = Away Team
+FTHG and HG = Full Time Home Team Goals
+FTAG and AG = Full Time Away Team Goals
+FTR and Res = Full Time Result (H=Home Win, D=Draw, A=Away Win)
+Referee = Match Referee
+HS = Home Team Shots
+AS = Away Team Shots
+HST = Home Team Shots on Target
+AST = Away Team Shots on Target
+HF = Home Team Fouls Committed
+AF = Away Team Fouls Committed
+HC = Home Team Corners
+AC = Away Team Corners
+HY = Home Team Yellow Cards
+AY = Away Team Yellow Cards
+HR = Home Team Red Cards
+AR = Away Team Red Cards
+
+Note also that English and Scottish yellow cards do not include the initial yellow card when a second is shown to a player converting it into a red, but this is included as a yellow (plus red) for European games.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Penalty data collected by Nathan from the ESPN Soccer website and other fields added to above.
+
+Reds = Total Red Cards = HR + AR
+Fouls = Total Fouls Committed = HF + AF
+HPMa = Home Team Penalties Made
+HPMi = Home Team Penalties Made
+APMa = Away Team Penalties Made
+APMi = Away Team Penalties Missed
+ESPN_id = Index Number for Game in ESPN's API
+
+
+
+
